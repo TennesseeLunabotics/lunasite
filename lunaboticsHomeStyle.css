@@ -1,0 +1,95 @@
+body{
+    font-family: "Gill Sans", sans-serif;
+    background-color:#111;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img.backdrop{       /* homepage background formatting */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+img.rightImages{    /* formatting for images shifted to the right */
+    display: block;
+    margin-left: 900px;
+    margin-right: auto; 
+    margin-top: 40px;
+}
+
+img.centerImages{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+h1 {                /* h1 (header) text formatting */
+    color: #ff8d60;
+    font-size: 45px; 
+    letter-spacing: 4px;
+    font-weight: lighter;
+    font: "Gill Sans", sans-serif;
+    margin-top: 60px;
+    text-align: center;
+}
+
+h2 {            /* h2 (paragraph) text formatting */
+    color: #e2cbc3;
+    font-size: 25px; 
+    letter-spacing: 3px;
+    line-height: 38px;
+    font-weight: lighter;
+    font: "Gill Sans", sans-serif;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.navBar{        /* navigation bar formatting */
+    position: relative;
+    top: 30px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+.navBar a {
+    margin-right: 20px;
+    float: right;
+    color: #ff8d60;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 21px;
+  }
+
+  .navBar a:hover{
+      background-color: #ff8d60;
+      color: #111;
+  }
+
+  .navBar a.active{
+      background-color: #ff8d60;
+      color: #111;
+  }
+
+  footer {
+    display: block;
+    padding: 5px;
+    background-color: #111;
+    font-size: 19px;
+    letter-spacing: 3.5px;
+    font-weight: lighter;
+    color: #ff8d60;
+    text-align: center;
+  }
+
+  pre{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: lighter;
+  }
