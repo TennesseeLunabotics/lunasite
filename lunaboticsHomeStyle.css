@@ -93,3 +93,32 @@ h2 {            /* h2 (paragraph) text formatting */
     font-family: "Gill Sans", sans-serif;
     font-weight: lighter;
   }
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 24%;
+    margin-left: 250px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column2 {
+    float: left;
+    width: 25.33%;
+    padding: 10px;
+    margin-left: 80px;
+  }
+  
+  /* Clear floats after image containers */
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
