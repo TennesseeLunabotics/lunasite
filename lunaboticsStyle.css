@@ -1,0 +1,161 @@
+body{
+    font-family: "Gill Sans", sans-serif;
+    background-color:#111;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img.backdrop{       /* homepage background formatting */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+img.rightImages{    /* formatting for images shifted to the right */
+    display: block;
+    margin-left: 900px;
+    margin-right: auto; 
+    margin-top: 40px;
+}
+
+img.centerImages{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {                /* h1 (header) text formatting */
+    color: #ff8d60;
+    font-size: 45px; 
+    letter-spacing: 4px;
+    font-weight: lighter;
+    font: "Gill Sans", sans-serif;
+    margin-top: 60px;
+    text-align: center;
+}
+
+h2 {            /* h2 (paragraph) text formatting */
+    color: #e2cbc3;
+    font-size: 25px; 
+    letter-spacing: 3px;
+    line-height: 38px;
+    font-weight: lighter;
+    font: "Gill Sans", sans-serif;
+    margin-top: 60px;
+    text-align: center;
+}
+
+h3{
+  color: #ffb3a0;
+  margin-top: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+  background-color: black;
+  font-size: 22px; 
+  letter-spacing: 3px;
+  line-height: 38px;
+  font-weight: lighter;
+  font: "Gill Sans", sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.navBar{        /* navigation bar formatting */
+    position: relative;
+    top: 30px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+.navBar a {
+    margin-right: 20px;
+    float: right;
+    color: #ff8d60;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 21px;
+  }
+
+  .navBar a:hover{
+      background-color: #ff8d60;
+      color: #111;
+      margin-top: 20px;
+  }
+
+  .navBar a.active{
+      background-color: #ff8d60;
+      color: #111;
+  }
+
+  .resources a:hover{
+    background-color: #ff8d60;
+    color:black;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+  footer {
+    display: block;
+    padding: 5px;
+    background-color: #111;
+    font-size: 19px;
+    letter-spacing: 3.5px;
+    font-weight: lighter;
+    color: #ff8d60;
+    text-align: center;
+  }
+
+  pre{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: lighter;
+  }
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 24%;
+    margin-left: 250px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column2 {
+    float: left;
+    width: 25.33%;
+    padding: 10px;
+    margin-left: 80px;
+  }
+  
+  /* Clear floats after image containers */
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  /* LINKS */
+
+  a:link {
+    color: #ff8438;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #ff8438;
+    background-color: transparent;
+    text-decoration: none;
+  }
