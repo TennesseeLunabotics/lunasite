@@ -48,10 +48,23 @@ h2 {            /* h2 (paragraph) text formatting */
 h3{
   color: #ffb3a0;
   margin-top: 80px;
-  margin-left: 15px;
+  margin-left: 55px;
   margin-right: 15px;
   text-align: left;
   background-color: black;
+  font-size: 22px; 
+  letter-spacing: 3px;
+  line-height: 38px;
+  font-weight: lighter;
+  font: "Gill Sans", sans-serif;
+}
+
+h4{
+  color: white;
+  margin-top: 80px;
+  margin-left: 55px;
+  margin-right: 15px;
+  text-align: left;
   font-size: 22px; 
   letter-spacing: 3px;
   line-height: 38px;
