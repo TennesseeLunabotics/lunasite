@@ -83,7 +83,7 @@ h4{
     background-color: #111;
     overflow: hidden;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .navBar a {
@@ -140,17 +140,17 @@ h4{
 
 .dropdown-content a {
   float: none;
-  font-size: 19px;
-  color: #ff8d60;
-  background-color: #111;
+  font-size: 21px;
+  color: #d66754;
+  background-color: rgb(22, 22, 22);
   display: block;
   text-align: left;
-  padding: 20px 5px;
-
+  padding-top: 12px;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
-  background-color: #ff8d60;
+  background-color: #f16947;
   color: #111;
 }
 
