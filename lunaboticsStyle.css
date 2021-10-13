@@ -36,12 +36,12 @@ h1 {                /* h1 (header) text formatting */
 
 h2 {            /* h2 (paragraph) text formatting */
     color: #e2cbc3;
-    font-size: 25px; 
+    font-size: 22px; 
     letter-spacing: 3px;
     line-height: 38px;
     font-weight: lighter;
     font: "Gill Sans", sans-serif;
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -79,13 +79,15 @@ h4{
 
 .navBar{        /* navigation bar formatting */
     position: relative;
-    top: 30px;
+    top: 0px;
     background-color: #111;
     overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .navBar a {
-    margin-right: 20px;
+    margin-right: 10px;
     float: right;
     color: #ff8d60;
     text-align: center;
@@ -97,7 +99,6 @@ h4{
   .navBar a:hover{
       background-color: #ff8d60;
       color: #111;
-      margin-top: 20px;
   }
 
   .navBar a.active{
@@ -112,6 +113,52 @@ h4{
     margin-top: 10px;
     padding: 5px;
 }
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  color: #ff8d60;
+}
+
+.dropdown .dropbtn {
+  font-size: 21px;  
+  color: #ff8d60;
+  padding: 5px;
+  background-color: #111;
+  padding: 20px 20px;
+}
+
+.navBar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ff8d60;
+  color: #111;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a {
+  float: none;
+  font-size: 19px;
+  color: #ff8d60;
+  background-color: #111;
+  display: block;
+  text-align: left;
+  padding: 20px 5px;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #ff8d60;
+  color: #111;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 
   footer {
     display: block;
@@ -172,3 +219,23 @@ h4{
     background-color: transparent;
     text-decoration: none;
   }
+
+  /* dropdown menu */
+
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+
+.box .text{
+    position: relative;
+    margin-bottom: 5px;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 100%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 80%;
+}

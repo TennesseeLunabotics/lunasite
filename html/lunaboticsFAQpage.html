@@ -3,6 +3,7 @@
     
     <head>
         <link rel = "stylesheet" href = "../lunaboticsStyle.css">  <!-- reference to css file-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset = "utf-8">
         <title>Tennessee Lunabotics</title>
     </head>
@@ -12,7 +13,15 @@
 
         <div class = "navBar">
             <div><img class = "logo" src = "../images/lunaLogo.png" width="300" height="150">
-            <a onClick = "window.location.href='lunaboticsContactUsPage.html'" >Contact Us</a>
+
+            <div class="dropdown">
+                <div class="dropbtn">Contact </div>
+                <div class="dropdown-content">
+                  <a onClick = "window.location.href='lunaboticsContactUsPage.html'">Contact Us</a>
+                  <a onClick = "window.location.href='lunaboticsTeamPage.html'">The Team</a>
+                </div>
+              </div> 
+
             <a class = "active" >FAQ</a>
             <a onClick = "window.location.href='lunaboticsOutreachPage.html'" >Outreach</a>
             <a onClick = "window.location.href='lunaboticsDonatePage.html'" >Donate</a>
