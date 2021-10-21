@@ -1,0 +1,56 @@
+#hero{
+    background-image: url(../images/backDrop.gif);
+}
+
+
+
+.scroll .hero {
+    transform: scale(0.98);
+  }
+   
+.hero {
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: auto 100%;
+    background-size: 100vw;
+    background-color: #111111;
+    transition: transform 0.5s ease-in-out;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5) 0,
+        rgba(0, 0, 0, 0.3) 50%,
+        rgba(0, 0, 0, 0.1) 100%
+);
+}
+
+.hero .container-fluid {
+    z-index: 10;
+}  
+
+.bg-orange{
+    background-color: #ff8200;
+}
+.text-orange{
+    color: #ff8200;
+}
+a.orange-link:link{
+    color: #ff8200;
+}
+a.orange-link:visited{
+    color: #ff8200;
+}
+a.orange-link:hover{
+    color: #ca6800;
+}
+a.orange-link:active{
+    color: #ff8200;
+}
