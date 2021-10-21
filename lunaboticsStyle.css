@@ -86,6 +86,11 @@ h5{
   font: "Gill Sans", sans-serif;
 }
 
+.font{
+  font: "Gill Sans", sans-serif;
+  letter-spacing: 1.5px;
+}
+
 .center{
     text-align: center;
 }
@@ -175,15 +180,6 @@ h5{
 
 
 
-footer {
-  display: block;
-  padding: 1.5vw;
-  font-size: 1vw;
-  letter-spacing: 3px;
-  font-weight: lighter;
-  color: #ff8d60;
-  text-align: center;
-}
 
   pre{
     font-family: "Gill Sans", sans-serif;
