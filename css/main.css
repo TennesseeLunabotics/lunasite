@@ -1,5 +1,5 @@
 #hero{
-    background-image: url(../images/backDrop.png);
+    background-image: url(../images/backDrop.gif);
 }
 
 
@@ -13,7 +13,8 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: auto 100%;
-    background-size: 100vw;
+    background-size: contain;
+    -webkit-background-size: contain;
     background-color: #111111;
     transition: transform 0.5s ease-in-out;
 }
