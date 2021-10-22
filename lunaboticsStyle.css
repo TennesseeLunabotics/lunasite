@@ -25,8 +25,7 @@ img.centerImages{
 
 h1 {                /* h1 (header) text formatting */
     color: #ff8d60;
-    font-size: 4vw; 
-    letter-spacing: 2px;
+    font-size: 3.5vw; 
     font-weight: lighter;
     font: "Gill Sans", sans-serif;
     margin-top: 2%;
@@ -79,7 +78,7 @@ h5{
   margin-left: 3%;
   margin-right: 2%;
   text-align: left;
-  font-size: 2vw;
+  font-size: 3vw;
   letter-spacing: 1.5px;
   line-height: 100%;
   font-weight: lighter;
@@ -88,7 +87,6 @@ h5{
 
 .font{
   font: "Gill Sans", sans-serif;
-  letter-spacing: 1.5px;
 }
 
 .center{
@@ -124,12 +122,9 @@ h5{
       color: #111;
   }
 
+
   .resources a:hover{
-    background-color: #ff8d60;
-    color:black;
-    margin-left: 1%;
-    margin-top: 1%;
-    padding: 1%;
+    color: #ffb24d;
 }
 
 .dropdown {
