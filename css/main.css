@@ -46,20 +46,20 @@
 
 
 .bg-orange{
-    background-color: #ff8d60;
+    background-color: #FF8200;
 }
 .text-orange{
-    color: #ff8d60;
+    color: #FF8200;
 }
 a.orange-link:link{
-    color: #ff8d60;
+    color: #FF8200;
 }
 a.orange-link:visited{
-    color: #ff8d60;
+    color: #FF8200;
 }
 a.orange-link:hover{
     color: #ca6800;
 }
 a.orange-link:active{
-    color: #ff8d60;
+    color: #FF8200;
 }
