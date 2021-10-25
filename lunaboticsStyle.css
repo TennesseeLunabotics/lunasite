@@ -43,6 +43,17 @@ h2 {            /* h2 (paragraph) text formatting */
     text-align: center;
     padding: 3%;
 }
+.h2-style{
+  color: #e2cbc3;
+    /*font-size: 1.8vw; */
+    letter-spacing: 2px;
+    line-height: 180%;
+    font-weight: lighter;
+    font: "Gill Sans", sans-serif;
+    margin-top: 3%;
+    text-align: center;
+    padding: 3%;
+}
 
 h3{
   color: #ffb3a0;
