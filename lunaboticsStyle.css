@@ -25,7 +25,7 @@ img.centerImages{
 
 h1 {                /* h1 (header) text formatting */
     color: #ff8d60;
-    font-size: 3.5vw; 
+    /*font-size: 3.5vw; */
     font-weight: lighter;
     font: "Gill Sans", sans-serif;
     margin-top: 2%;
@@ -34,7 +34,7 @@ h1 {                /* h1 (header) text formatting */
 
 h2 {            /* h2 (paragraph) text formatting */
     color: #e2cbc3;
-    font-size: 1.8vw; 
+    /*font-size: 1.8vw; */
     letter-spacing: 2px;
     line-height: 180%;
     font-weight: lighter;
@@ -52,7 +52,7 @@ h3{
   margin-right: 4%;
   padding-bottom: 2%;
   text-align: left;
-  font-size: 1.6vw; 
+  /*font-size: 1.6vw; */
   letter-spacing: 2px;
   line-height: 180%;
   font-weight: lighter;
@@ -65,7 +65,7 @@ h4{
   margin-left: 3%;
   margin-right: 2%;
   text-align: left;
-  font-size: 1.6vw;
+  /*font-size: 1.6vw;*/
   letter-spacing: 1.5px;
   line-height: 180%;
   font-weight: lighter;
@@ -78,7 +78,7 @@ h5{
   margin-left: 3%;
   margin-right: 2%;
   text-align: left;
-  font-size: 3vw;
+  /*font-size: 3vw;*/
   letter-spacing: 1.5px;
   line-height: 100%;
   font-weight: lighter;
@@ -109,7 +109,7 @@ h5{
     text-align: center;
     padding: 1.2%;
     text-decoration: none;
-    font-size: 1.4vw;
+    /*font-size: 1.4vw; */
   }
 
   .navBar a:hover{
@@ -135,7 +135,7 @@ h5{
 }
 
 .dropdown .dropbtn {
-  font-size: 1.45vw; 
+  /*font-size: 1.45vw; */
   padding: 1.6vw;
   color: #ff8d60;
   background-color: #111;
@@ -153,7 +153,7 @@ h5{
 
 .dropdown-content a {
   float: none;
-  font-size: 1.3vw;
+  /*font-size: 1.3vw; */
   color: #d66754;
   background-color: rgb(22, 22, 22);
   display: block;
@@ -214,13 +214,13 @@ h5{
   /* LINKS */
 
   a:link {
-    color: #ff8438;
+    color: #ff8d60;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:visited {
-    color: #ff8438;
+    color: #ff8d60;
     background-color: transparent;
     text-decoration: none;
   }
