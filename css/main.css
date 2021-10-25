@@ -37,21 +37,29 @@
     z-index: 10;
 }  
 
+/* ^old hero */
+
+.logo{
+    justify-content: center;
+    width: 100vw;
+}
+
+
 .bg-orange{
-    background-color: #ff8200;
+    background-color: #ff8d60;
 }
 .text-orange{
-    color: #ff8200;
+    color: #ff8d60;
 }
 a.orange-link:link{
-    color: #ff8200;
+    color: #ff8d60;
 }
 a.orange-link:visited{
-    color: #ff8200;
+    color: #ff8d60;
 }
 a.orange-link:hover{
     color: #ca6800;
 }
 a.orange-link:active{
-    color: #ff8200;
+    color: #ff8d60;
 }
