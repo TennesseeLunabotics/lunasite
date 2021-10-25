@@ -102,7 +102,7 @@ h1 {                /* h1 (header) text formatting */
 }
 
 h2 {            /* h2 (paragraph) text formatting */
-    color: #e2cbc3;
+    color: white;
     /*font-size: 1.8vw; */
     letter-spacing: 2px;
     line-height: 180%;
@@ -113,7 +113,7 @@ h2 {            /* h2 (paragraph) text formatting */
     padding: 3%;
 }
 .h2-style{
-  color: #e2cbc3;
+  color: white;
     /*font-size: 1.8vw; */
     letter-spacing: 2px;
     line-height: 180%;
