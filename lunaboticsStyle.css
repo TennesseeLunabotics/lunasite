@@ -33,7 +33,7 @@ img.centerImages{
 
 h1 {                /* h1 (header) text formatting */
     color: #FF8200;
-    /*font-size: 3.5vw; */
+    
     font-weight: lighter;
     font: "Gill Sans", sans-serif;
     margin-top: 2%;
@@ -42,7 +42,7 @@ h1 {                /* h1 (header) text formatting */
 
 h2 {            /* h2 (paragraph) text formatting */
     color: white;
-    /*font-size: 1.8vw; */
+    font-size: 160%;
     letter-spacing: 2px;
     line-height: 180%;
     font-weight: lighter;
@@ -53,7 +53,7 @@ h2 {            /* h2 (paragraph) text formatting */
 }
 .h2-style{
   color: white;
-    /*font-size: 1.8vw; */
+    
     letter-spacing: 2px;
     line-height: 180%;
     font-weight: lighter;
@@ -71,7 +71,7 @@ h3{
   margin-right: 4%;
   padding-bottom: 2%;
   text-align: left;
-  /*font-size: 1.6vw; */
+  
   letter-spacing: 2px;
   line-height: 180%;
   font-weight: lighter;
@@ -84,7 +84,7 @@ h4{
   margin-left: 3%;
   margin-right: 2%;
   text-align: left;
-  /*font-size: 1.6vw;*/
+  
   letter-spacing: 1.5px;
   line-height: 180%;
   font-weight: lighter;
@@ -92,12 +92,12 @@ h4{
 }
 
 h5{
-  color: white;
+  color: #ddd;
   margin-top: 2%;
   margin-left: 3%;
   margin-right: 2%;
   text-align: left;
-  /*font-size: 3vw;*/
+  
   letter-spacing: 1.5px;
   line-height: 100%;
   font-weight: lighter;
