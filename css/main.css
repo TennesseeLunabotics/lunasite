@@ -80,6 +80,10 @@ img.backdrop{       /* homepage background formatting */
     margin-right: auto; 
 }
 
+title{
+  display: none;
+}
+
 img.rightImages{    /* formatting for images shifted to the right */
     display: block;
     float: left;
