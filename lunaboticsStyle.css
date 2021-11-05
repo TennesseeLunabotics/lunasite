@@ -25,12 +25,6 @@ img.rightImages{    /* formatting for images shifted to the right */
     margin-top: 40px;
 }
 
-img.centerImages{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1 {                /* h1 (header) text formatting */
     color: #FF8200;
     

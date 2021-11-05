@@ -84,18 +84,6 @@ title{
   display: none;
 }
 
-img.rightImages{    /* formatting for images shifted to the right */
-    display: block;
-    float: left;
-    margin-top: 40px;
-}
-
-img.centerImages{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1 {                /* h1 (header) text formatting */
     color: #FF8200;
     /*font-size: 3.5vw; */
