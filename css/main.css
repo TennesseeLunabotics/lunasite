@@ -71,7 +71,6 @@ body{
     background-color:#111;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 img.backdrop{       /* homepage background formatting */
@@ -86,7 +85,6 @@ title{
 
 h1 {                /* h1 (header) text formatting */
     color: #FF8200;
-    /*font-size: 3.5vw; */
     font-weight: lighter;
     font: "Gill Sans", sans-serif;
     margin-top: 2%;
@@ -95,7 +93,6 @@ h1 {                /* h1 (header) text formatting */
 
 h2 {            /* h2 (paragraph) text formatting */
     color: white;
-    /*font-size: 1.8vw; */
     letter-spacing: 2px;
     line-height: 180%;
     font-weight: lighter;
@@ -106,7 +103,6 @@ h2 {            /* h2 (paragraph) text formatting */
 }
 .h2-style{
   color: white;
-    /*font-size: 1.8vw; */
     letter-spacing: 2px;
     line-height: 180%;
     font-weight: lighter;
@@ -123,8 +119,7 @@ h3{
   margin-left: 3%;
   margin-right: 4%;
   padding-bottom: 2%;
-  text-align: left;
-  /*font-size: 1.6vw; */
+  text-align: center;
   letter-spacing: 2px;
   line-height: 180%;
   font-weight: lighter;
@@ -134,14 +129,12 @@ h3{
 h4{
   color: white;
   margin-top: 3%;
-  margin-left: 3%;
-  margin-right: 2%;
-  text-align: left;
-  /*font-size: 1.6vw;*/
+  text-align: center;
   letter-spacing: 1.5px;
   line-height: 180%;
   font-weight: lighter;
   font: "Gill Sans", sans-serif;
+  font-size: 130%;
 }
 
 h5{
@@ -149,8 +142,7 @@ h5{
   margin-top: 2%;
   margin-left: 3%;
   margin-right: 2%;
-  text-align: left;
-  /*font-size: 3vw;*/
+  text-align: center;
   letter-spacing: 1.5px;
   line-height: 100%;
   font-weight: lighter;
@@ -166,7 +158,7 @@ h5{
 }
 
 
-.navBar{        /* navigation bar formatting */
+.navBar{   
     position: relative;
     top: 0px;
     background-color: #111;
@@ -181,7 +173,6 @@ h5{
     text-align: center;
     padding: 1.2%;
     text-decoration: none;
-    /*font-size: 1.4vw; */
   }
 
   .navBar a:hover{
@@ -207,7 +198,6 @@ h5{
 }
 
 .dropdown .dropbtn {
-  /*font-size: 1.45vw; */
   padding: 1.6vw;
   color: #FF8200;
   background-color: #111;
@@ -225,7 +215,6 @@ h5{
 
 .dropdown-content a {
   float: none;
-  /*font-size: 1.3vw; */
   color: #d66754;
   background-color: rgb(22, 22, 22);
   display: block;
