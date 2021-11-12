@@ -129,7 +129,6 @@ h4{
   line-height: 180%;
   font-weight: lighter;
   font: "Gill Sans", sans-serif;
-  font-size: 130%;
 }
 
 h5{
@@ -229,13 +228,10 @@ h5{
   display: block;
 }
 
-
-
-
-  pre{
-    font-family: "Gill Sans", sans-serif;
-    font-weight: lighter;
-  }
+pre{
+  font-family: "Gill Sans", sans-serif;
+  font-weight: lighter;
+}
 
   /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {

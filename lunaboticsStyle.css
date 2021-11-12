@@ -36,7 +36,7 @@ h1 {                /* h1 (header) text formatting */
 
 h2 {            /* h2 (paragraph) text formatting */
     color: white;
-    font-size: 160%;
+     160%;
     letter-spacing: 2px;
     line-height: 180%;
     font-weight: lighter;
@@ -46,15 +46,14 @@ h2 {            /* h2 (paragraph) text formatting */
     padding: 3%;
 }
 .h2-style{
-  color: white;
-    
-    letter-spacing: 2px;
-    line-height: 180%;
-    font-weight: lighter;
-    font: "Gill Sans", sans-serif;
-    margin-top: 3%;
-    text-align: center;
-    padding: 3%;
+  color: white; 
+  letter-spacing: 2px;
+  line-height: 180%;
+  font-weight: lighter;
+  font: "Gill Sans", sans-serif;
+  margin-top: 3%;
+  text-align: center;
+  padding: 3%;
 }
 
 h3{
@@ -100,6 +99,7 @@ h5{
 
 .font{
   font: "Gill Sans", sans-serif;
+   80%;
 }
 
 .center{
@@ -122,7 +122,7 @@ h5{
     text-align: center;
     padding: 1.2%;
     text-decoration: none;
-    /*font-size: 1.4vw; */
+    /* 1.4vw; */
   }
 
   .navBar a:hover{
@@ -148,7 +148,7 @@ h5{
 }
 
 .dropdown .dropbtn {
-  /*font-size: 1.45vw; */
+  /* 1.45vw; */
   padding: 1.6vw;
   color: #FF8200;
   background-color: #111;
@@ -166,7 +166,7 @@ h5{
 
 .dropdown-content a {
   float: none;
-  /*font-size: 1.3vw; */
+  /* 1.3vw; */
   color: #d66754;
   background-color: rgb(22, 22, 22);
   display: block;
