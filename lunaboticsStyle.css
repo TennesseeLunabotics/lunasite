@@ -27,7 +27,7 @@ img.rightImages{    /* formatting for images shifted to the right */
 
 h1 {                /* h1 (header) text formatting */
     color: #FF8200;
-    
+    font-size: xx-large;
     font-weight: lighter;
     font: "Gill Sans", sans-serif;
     margin-top: 2%;
@@ -36,7 +36,6 @@ h1 {                /* h1 (header) text formatting */
 
 h2 {            /* h2 (paragraph) text formatting */
     color: white;
-     160%;
     letter-spacing: 2px;
     line-height: 180%;
     font-weight: lighter;
@@ -44,31 +43,22 @@ h2 {            /* h2 (paragraph) text formatting */
     margin-top: 3%;
     text-align: center;
     padding: 3%;
+    font-size: larger;
 }
-.h2-style{
-  color: white; 
-  letter-spacing: 2px;
-  line-height: 180%;
-  font-weight: lighter;
-  font: "Gill Sans", sans-serif;
-  margin-top: 3%;
-  text-align: center;
-  padding: 3%;
-}
+
 
 h3{
   color: #aaa;
   margin-top: 3%;
-  margin-bottom: 0%;
   margin-left: 3%;
   margin-right: 4%;
   padding-bottom: 2%;
   text-align: left;
-  
   letter-spacing: 2px;
   line-height: 180%;
   font-weight: lighter;
   font: "Gill Sans", sans-serif;
+  font-size: large;
 }
 
 h4{
@@ -77,11 +67,11 @@ h4{
   margin-left: 3%;
   margin-right: 2%;
   text-align: left;
-  
   letter-spacing: 1.5px;
   line-height: 180%;
   font-weight: lighter;
   font: "Gill Sans", sans-serif;
+  font-size: large;
 }
 
 h5{
@@ -95,11 +85,11 @@ h5{
   line-height: 100%;
   font-weight: lighter;
   font: "Gill Sans", sans-serif;
+  font-size: large;
 }
 
 .font{
   font: "Gill Sans", sans-serif;
-   80%;
 }
 
 .center{

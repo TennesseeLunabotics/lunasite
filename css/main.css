@@ -110,13 +110,12 @@ h2 {            /* h2 (paragraph) text formatting */
 h3{
   color: #aaa;
   margin-top: 3%;
-  margin-bottom: 0%;
   margin-left: 3%;
   margin-right: 4%;
   padding-bottom: 2%;
   text-align: center;
   letter-spacing: 2px;
-  line-height: 180%;
+  line-height: 160%;
   font-weight: lighter;
   font: "Gill Sans", sans-serif;
 }
