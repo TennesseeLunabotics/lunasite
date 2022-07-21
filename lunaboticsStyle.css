@@ -255,12 +255,6 @@ h5{
   font-size: large;
 }
 
-/* for the circle images */
-.col > img {
-  border-radius: 50%;
-  border: 2px solid rgb(219, 171, 14);
-}
-
 /* for the whole box */
 .container{
   padding-top: 20px;;
