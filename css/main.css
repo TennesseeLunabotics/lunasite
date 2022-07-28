@@ -269,6 +269,12 @@ pre{
     background-color: transparent;
     text-decoration: none;
   }
+
+  a:hover {
+    color: #ffbb00;
+    background-color: transparent;
+    text-decoration: none;
+  }
   
   a:visited {
     color: #FF8200;

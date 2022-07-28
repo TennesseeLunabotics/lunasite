@@ -116,18 +116,18 @@ h5{
   }
 
   .navBar a:hover{
-      background-color: #FF8200;
+      background-color: #ffbb00;
       color: #111;
   }
 
   .navBar a.active{
-      background-color: #FF8200;
+      background-color: #ffbb00;
       color: #111;
   }
 
 
   .resources a:hover{
-    color: #ffb24d;
+    color: #ffbb00;
 }
 
 .dropdown {
@@ -176,9 +176,6 @@ h5{
   display: block;
 }
 
-
-
-
   pre{
     font-family: "Gill Sans", sans-serif;
     font-weight: lighter;
@@ -222,6 +219,12 @@ h5{
     text-decoration: none;
   }
   
+  a:hover {
+    color: #ffbb00;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
   a:visited {
     color: #FF8200;
     background-color: transparent;
