@@ -93,7 +93,7 @@ h2 {            /* h2 (paragraph) text formatting */
     font-weight: lighter;
     font: "Gill Sans", sans-serif;
     margin-top: 3%;
-    text-align: center;
+    text-align: left;
     padding: 3%;
 }
 .h2-style{
