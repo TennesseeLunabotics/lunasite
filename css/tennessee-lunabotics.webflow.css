@@ -749,6 +749,20 @@ p {
   display: flex;
 }
 
+.join-columns {
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.join-columns .paragraph {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .list-item {
   color: #303030;
   text-align: left;
