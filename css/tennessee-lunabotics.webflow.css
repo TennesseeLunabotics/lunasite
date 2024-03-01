@@ -749,6 +749,7 @@ p {
   display: flex;
 }
 
+
 .join-columns {
   justify-content: flex-start;
   align-items: center;
@@ -1007,6 +1008,13 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+  .cta-col {
+    width: 100%;
+  }
+  .join-columns {
+    flex-wrap: wrap;
+  }
+  
   .button.full-width {
     margin-left: auto;
     margin-right: auto;
