@@ -20,7 +20,9 @@
 body {
   color: #edeff2;
   background-color: #edeff2;
-  font-family: Open Sans, sans-serif;
+  font-family:
+    Open Sans,
+    sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -103,7 +105,7 @@ p {
   font-weight: 300;
   line-height: 21px;
   text-decoration: none;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
   display: inline-block;
 }
 
@@ -129,7 +131,7 @@ p {
   justify-content: center;
   align-items: flex-start;
   font-family: Poppins, sans-serif;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   display: block;
 }
 
@@ -311,7 +313,7 @@ p {
   border: 0 solid #000;
   border-radius: 3px;
   margin-bottom: 17px;
-  box-shadow: 0 0 0 1px rgba(64, 64, 71, .3);
+  box-shadow: 0 0 0 1px rgba(64, 64, 71, 0.3);
 }
 
 .form-field.text-area {
@@ -425,7 +427,8 @@ p {
   margin-right: 20px;
 }
 
-.image-3, .image-4 {
+.image-3,
+.image-4 {
   width: 50px;
   height: 50px;
   margin-right: 20px;
@@ -749,7 +752,6 @@ p {
   display: flex;
 }
 
-
 .join-columns {
   justify-content: flex-start;
   align-items: center;
@@ -885,7 +887,7 @@ p {
   background-color: #fff;
   border: 1px solid #000;
   border-radius: 20px;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
 }
 
 .tab-link:hover {
@@ -897,7 +899,8 @@ p {
   background-color: #ff7800;
 }
 
-.tab-text, .text-block-2 {
+.tab-text,
+.text-block-2 {
   font-family: Poppins, sans-serif;
   font-weight: 500;
 }
@@ -908,14 +911,15 @@ p {
 
 .about-image {
   border-radius: 20px;
-  box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .team-image {
   border-radius: 8px;
 }
 
-.div-block-2, .hero {
+.div-block-2,
+.hero {
   height: 100vh;
 }
 
@@ -946,15 +950,16 @@ p {
 
 @media screen and (max-width: 991px) {
   .navigation-link {
-    color: rgba(255, 255, 255, .52);
+    color: rgba(255, 255, 255, 0.52);
   }
 
   .navigation-link.w--current {
     color: #fff;
   }
 
-  .hamburger-button.w--open, .navigation-menu {
-    background-color: #3b99d9;
+  .hamburger-button.w--open,
+  .navigation-menu {
+    background-color: #313e48;
   }
 
   .hero-section.centered {
@@ -977,7 +982,9 @@ p {
     padding-right: 140px;
   }
 
-  .schedule-event, .schedule-event-block, .important-dates.green {
+  .schedule-event,
+  .schedule-event-block,
+  .important-dates.green {
     clear: left;
   }
 
@@ -1014,7 +1021,7 @@ p {
   .join-columns {
     flex-wrap: wrap;
   }
-  
+
   .button.full-width {
     margin-left: auto;
     margin-right: auto;
@@ -1058,7 +1065,8 @@ p {
     align-items: stretch;
   }
 
-  .tab-link, .tab-link.w--current {
+  .tab-link,
+  .tab-link.w--current {
     clear: left;
   }
 }
@@ -1135,7 +1143,9 @@ p {
     align-content: space-between;
   }
 
-  .footersocials, .about-columns-alternate, .team-columns {
+  .footersocials,
+  .about-columns-alternate,
+  .team-columns {
     flex-wrap: wrap;
   }
 
@@ -1145,5 +1155,3 @@ p {
     align-items: stretch;
   }
 }
-
-
